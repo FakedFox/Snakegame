@@ -16,6 +16,5 @@ fps = 30                       # ФПС
 
 snake_posX = width / block * (block / 2)       # положение змеи по Х
 snake_posY = height / block * (block / 2)      # положение змеи по У
-print(snake_posY, snake_posX)
 apple_posX = random.randrange(20, width - block, block)  # положение яблока по Х
 apple_posY = random.randrange(20, height - block, block) # положение яблока по У
