@@ -23,8 +23,8 @@ def drawGrid ():            #сетка на поле
 def screenset(running):
 
     pygame.event.set_blocked([pygame.MOUSEBUTTONDOWN, pygame.MOUSEBUTTONUP, pygame.MOUSEWHEEL, pygame.MOUSEMOTION])
-    #pygame.mouse.set_visible(False)  # отключает отображение мыши в игре
-    #pygame.event.set_grab(True)  # не дает мышке выйти за предела поля игры
+    pygame.mouse.set_visible(False)  # отключает отображение мыши в игре
+    pygame.event.set_grab(True)  # не дает мышке выйти за предела поля игры
 
     pygame.display.update()
     screen.fill(grass_color)
