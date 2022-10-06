@@ -41,16 +41,12 @@ def eventCLK():
             if event.key == pygame.K_ESCAPE:
                 return 'quit'
             if event.key == pygame.K_LEFT:  # движение влево
-               # print('left')
                 return 'left'
             elif event.key == pygame.K_RIGHT:  # двжение вправо
-               #print('right')
                 return 'right'
             elif event.key == pygame.K_UP:  # движение вверх
-                #print('up')
                 return 'up'
             elif event.key == pygame.K_DOWN:  # движение вниз
-               #print('down')
                 return 'down'
 
 
